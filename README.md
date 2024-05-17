@@ -24,7 +24,7 @@ javascript:(function()%7Bconst%20parent_element%20%3D%20document.getElementById(
 
 ### C. Use this as a Chrome extension
 
-1. Download this repo as a zip file, then unzip it
+1. Download this repo as a zip file ([DOWNLOAD LINK](https://github.com/enigmango/Remove-AWS-Signout-Overlay/archive/refs/heads/main.zip)), then unzip it
 2. Open Chrome's [Extensions page](chrome://extensions)
 3. Enable developer mode (top right toggle)
 4. Click `Load Unpacked` (top left button)
