@@ -1,0 +1,23 @@
+{
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icon-128.png",
+        "default_title": "Remove AWS signed out overlay"
+    },
+    "name": "Remove AWS signed out overlay",
+    "description": "Removes the AWS signed out overlay so you can still select text",
+    "homepage_url": "https://github.com/enigmango/Remove-AWS-Signout-Overlay",
+    "icons": {
+        "128": "icon-128.png"
+    },
+    "permissions": [
+        "activeTab",
+        "https://*.console.aws.amazon.com/*"
+    ],
+    "version": "0.1",
+    "manifest_version": 2
+}
