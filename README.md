@@ -12,14 +12,14 @@
 ### A. Paste the script into the developer console as needed
 
 ```js
-const parent_element = document.getElementById("awsc-nav-reload-modal-root")
+const parent_element = document.getElementById("awsc-nav-signin-again-modal-root")
 parent_element.firstChild.remove()
 ```
 
 ### B. Create a bookmark with this as the URL, then open the bookmark whenever you want to remove the overlay
 
 ```
-javascript:(function()%7Bconst%20parent_element%20%3D%20document.getElementById(%22awsc-nav-reload-modal-root%22)%0Aparent_element.firstChild.remove()%7D)()%3B
+javascript:(function()%7Bconst%20parent_element%20%3D%20document.getElementById(%22awsc-nav-signin-again-modal-root%22)%0Aparent_element.firstChild.remove()%7D)()%3B
 ```
 
 ### C. Use this as a Chrome extension
